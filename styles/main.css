@@ -1,0 +1,13 @@
+div.box {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 30px;
+    border: 1px blue solid;
+    height: 300px;
+    flex-wrap: wrap;
+}
+div.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+}
